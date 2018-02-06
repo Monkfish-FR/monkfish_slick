@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains monkfish_slick.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function monkfish_slick_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the monkfish_slick module.
+    case 'help.page.monkfish_slick':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Install and enable Slick modules') . '</p>';
+      return $output;
+
+    default:
+  }
+}

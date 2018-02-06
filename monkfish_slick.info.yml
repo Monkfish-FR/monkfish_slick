@@ -1,0 +1,5 @@
+name: 'Monkfish Slick'
+type: module
+description: 'Install and enable Slick modules'
+core: 8.x
+package: 'Custom'

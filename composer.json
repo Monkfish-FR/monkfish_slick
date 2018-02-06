@@ -1,0 +1,31 @@
+{
+    "name": "monkfish-fr/monkfish_slick",
+    "description": "Install and enable Slick module (and sub-modules).",
+    "type": "drupal-module",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Fabien TAVERNIER",
+            "email": "contact@monkfish.fr",
+            "role": "Maintainer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "require": {
+        "composer/installers": "^1.2",
+        "cweagans/composer-patches": "^1.6",
+        "balbuf/drupal-libraries-installer": "^1.0",
+        "drupal/slick_extras": "^1.0"
+    },
+    "extra": {
+        "drupal-libraries": {
+            "blazy": "https://github.com/dinbror/blazy/archive/1.8.2.zip",
+            "slick": "https://github.com/kenwheeler/slick/archive/1.8.0.zip"
+        }
+    }
+}
