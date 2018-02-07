@@ -14,20 +14,37 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "kenwheeler/slick",
+                "version": "1.8.0",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/kenwheeler/slick/archive/1.8.0.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "dinbror/blazy",
+                "version": "1.8.2",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/dinbror/blazy/archive/1.8.2.zip",
+                    "type": "zip"
+                }
+            }
         }
     ],
     "require": {
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6",
-        "balbuf/drupal-libraries-installer": "^1.0",
-        "dinbror/blazy": "1.8.2",
-        "kenwheeler/slick": "1.8.0",
+        "dinbror/blazy": "1.8.*",
+        "kenwheeler/slick": "1.8.*",
         "drupal/slick_extras": "^1.0"
-    },
-    "extra": {
-        "drupal-libraries": {
-            "blazy": "https://github.com/dinbror/blazy/archive/1.8.2.zip",
-            "slick": "https://github.com/kenwheeler/slick/archive/1.8.0.zip"
-        }
     }
 }
