@@ -43,8 +43,8 @@
     "require": {
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6",
-        "dinbror/blazy": "1.8.*",
-        "kenwheeler/slick": "1.8.*",
+        "dinbror/blazy": "1.8.2",
+        "kenwheeler/slick": "1.8.0",
         "drupal/slick_extras": "^1.0"
     }
 }
