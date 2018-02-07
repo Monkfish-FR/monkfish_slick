@@ -36,6 +36,11 @@
                 "dist": {
                     "url": "https://github.com/dinbror/blazy/archive/1.8.2.zip",
                     "type": "zip"
+                },
+                "source": {
+                    "url": "https://github.com/dinbror/blazy.git",
+                    "type": "git",
+                    "reference": "1.8.2"
                 }
             }
         }
