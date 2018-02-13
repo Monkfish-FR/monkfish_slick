@@ -26,29 +26,12 @@
                     "type": "zip"
                 }
             }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "dinbror/blazy",
-                "version": "1.8.2",
-                "type": "drupal-library",
-                "dist": {
-                    "url": "https://github.com/dinbror/blazy/archive/1.8.2.zip",
-                    "type": "zip"
-                },
-                "source": {
-                    "url": "https://github.com/dinbror/blazy.git",
-                    "type": "git",
-                    "reference": "1.8.2"
-                }
-            }
         }
     ],
     "require": {
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6",
-        "dinbror/blazy": "1.8.2",
+        "vardot/blazy": "^1.8",
         "kenwheeler/slick": "1.8.0",
         "drupal/slick_extras": "^1.0"
     }
