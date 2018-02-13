@@ -20,7 +20,7 @@
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6",
         "vardot/blazy": "^1.8",
-        "kenwheeler/slick": "^1.6",
+        "vardot/slick": "^1.6",
         "drupal/slick_extras": "^1.0"
     }
 }
