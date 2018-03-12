@@ -22,5 +22,10 @@
         "vardot/blazy": "^1.8",
         "vardot/slick": "^1.6",
         "drupal/slick_extras": "^1.0@beta"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
     }
 }
