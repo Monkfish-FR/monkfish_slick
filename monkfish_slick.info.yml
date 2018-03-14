@@ -1,8 +1,8 @@
 name: 'Monkfish Slick'
 type: module
-description: 'Install and enable Slick modules'
+description: 'Install and enable Slick modules (Slick + Extras + UI) and required libraries'
 core: 8.x
-package: 'Custom'
+package: Slick
 dependencies:
   - slick
   - slick_extras
