@@ -6,3 +6,4 @@ package: 'Custom'
 dependencies:
   - slick
   - slick_extras
+  - slick_ui
