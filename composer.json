@@ -19,9 +19,11 @@
     "require": {
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6",
+        "drupal/blazy": "^1.0@rc",
+        "drupal/slick": "^1.0",
+        "drupal/slick_extras": "^1.0@beta",
         "vardot/blazy": "^1.8",
-        "vardot/slick": "^1.6",
-        "drupal/slick_extras": "^1.0@beta"
+        "vardot/slick": "^1.6"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
